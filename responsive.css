@@ -1,0 +1,193 @@
+
+
+@media (max-width: 1024px) {
+  
+  nav {
+    padding-right: 1%;
+    height: 8vh;
+  }
+  
+  .logo {
+    margin-left: 600px;
+    width: 6vh;
+    height: 6vh;
+  }
+  
+  .liens ul {
+    gap: 15px; 
+  }
+  
+  
+  .hero-section {
+    height: 40vh;
+    padding-left: 3%;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem;
+  }
+  
+ 
+  .categorie {
+    grid-template-columns: repeat(2, 1fr); 
+    padding: 4% 5%;
+    grid-gap: 3%;
+  }
+  
+  
+  .produit-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    padding: 0 5%;
+  }
+  
+  .product-preview {
+    width: 200px; 
+  }
+}
+
+
+@media (max-width: 768px) {
+  
+  nav {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+  
+  .logo {
+    margin-left: 0;
+    margin-bottom: 10px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .liens ul {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    width: 100%;
+  }
+  
+  .liens ul li {
+    padding: 8px 0;
+  }
+  
+  
+  .hero-section {
+    height: 30vh;
+    padding-left: 5%;
+    text-align: center;
+  }
+  
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+  
+  .hero-section p {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  
+  .categorie {
+    grid-template-columns: 1fr; 
+    padding: 3% 4%;
+    grid-gap: 15px;
+  }
+  
+  .cate {
+    padding: 20px 0;
+    font-size: 1.1rem;
+  }
+  
+  
+  .produit-grid {
+    grid-template-columns: 1fr;
+    padding: 0 4%;
+  }
+  
+  .product-preview {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .product-preview img {
+    height: 180px; 
+  }
+  
+ 
+  .footer-container {
+    padding: 0 20px;
+  }
+  
+  .fouter-menu a {
+    display: block;
+    margin: 5px 0;
+  }
+  
+  .footer-socials {
+    margin: 15px 0;
+  }
+  
+  #footer-socials {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  #footer-socials img {
+    width: 60px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .hero-section h1 {
+    font-size: 1.5rem;
+  }
+  
+  .hero-section p {
+    font-size: 0.9rem;
+  }
+  
+  .product-preview {
+    padding: 10px;
+  }
+  
+  .product-preview img {
+    height: 150px;
+  }
+  
+  .cate {
+    font-size: 1rem;
+    padding: 15px 0;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  
+  .cate,
+  .product-preview,
+  .liens ul li a {
+    min-height: 44px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+ 
+  .product-preview {
+    margin-bottom: 20px;
+  }
+  
+  
+  body {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}

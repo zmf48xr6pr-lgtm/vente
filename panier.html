@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panier</title>
+    <link rel="stylesheet" href="panier.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <header>
+        <nav>
+        <div class="logo">
+          <img
+            src="https://images.scalebranding.com/unity-line-concept-logo-design-3ac157af-dca1-4350-9f48-83dd246a0219.jpg"
+            alt=""
+             />
+        </div>
+        <div class="liens">
+          <ul>
+            <a href="index.html"><li>Accueil</li></a>
+            <a href="accessoire.html"><li>Accessoires</li></a>
+            <a href="chaussure.html"><li>Chaussures</li></a>
+            <a href="jouets.html"><li>Jouets</li></a>
+            <a href="vetement.html"><li>Vetements</li></a>
+            <a href="panier.html"><li>Panier</li></a>
+            <a href="404.html">Contact</a></ul></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+   
+    <main>
+        <h2>Votre Panier</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Produit</th>
+                    <th>Prix</th>
+                    <th>Quantité</th>
+                    <th>Sous-total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Chaussure Nike Rose</td>
+                    <td>30,99€</td>
+                    <td>1</td>
+                    <td>30,99€</td>
+                </tr>
+                <tr>
+                    <td>Robe Rouge</td>
+                    <td>49,99€</td>
+                    <td>1</td>
+                    <td>49,99€</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p class="total">Total : 80,98€</p>
+
+         <button class="btn-commander">Valider la commande</button>
+
+        <h2>Besoin d'aide ? Contactez-nous</h2>
+        <form action="https://formspree.io/f/yourformid" ></form>
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </main>
+    <section>
+
+      <footer>
+        <div class="footer-container"> 
+        
+          <nav class="footer-menu">
+            <a href="index.html">Accueil</a>
+            <a href="boutique.html">Boutique</a>
+            <a href="Categories.html">Categories</a>
+            <a href="contact.html">Contact</a>
+          </nav>
+          
+        <div id="footer-socials">
+          <a href="404.html" aria-label="Facebook"><img src="facebook.jpg" alt="Facebook"></a>
+          <a href="404.html" aria-label="Instagram"><img src="intagram.jpg" alt="Instagram"></a>
+          <a href="404.html" aria-label="Twitter"><img src="twitter.jpg" alt="Twitter"></a>
+        </div>
+
+        <div class="footer-legal">
+          <p>&copy;2025 boutique produits solidaire-Tous droits reserver</p>
+          <p><a href="mentions-legales.html">Mentions legales</a>  |  <a href="credits.html">Credits`</a></p>
+         </div>
+        </div>
+      </footer>
+      </section>
+  </body>
+</html>
+
